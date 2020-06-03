@@ -5,12 +5,12 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/minify/v2/css"
-	minifyXML "github.com/tdewolff/minify/v2/xml"
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/parse/v2/buffer"
-	"github.com/tdewolff/parse/v2/xml"
+	"github.com/dtrenin7/minify/v2"
+	"github.com/dtrenin7/minify/v2/css"
+	minifyXML "github.com/dtrenin7/minify/v2/xml"
+	"github.com/dtrenin7/parse/v2"
+	"github.com/dtrenin7/parse/v2/buffer"
+	"github.com/dtrenin7/parse/v2/xml"
 )
 
 var (

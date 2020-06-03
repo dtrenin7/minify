@@ -2,7 +2,7 @@
 package fuzz
 
 import (
-	"github.com/tdewolff/parse/v2/css"
+	"github.com/dtrenin7/parse/v2/css"
 )
 
 func Fuzz(data []byte) int {

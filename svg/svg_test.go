@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/minify/v2/css"
-	"github.com/tdewolff/test"
+	"github.com/dtrenin7/minify/v2"
+	"github.com/dtrenin7/minify/v2/css"
+	"github.com/dtrenin7/test"
 )
 
 func TestSVG(t *testing.T) {

@@ -1,10 +1,10 @@
-module github.com/tdewolff/fuzz/minify/js
+module github.com/dtrenin7/fuzz/minify/js
 
 go 1.13
 
-replace github.com/tdewolff/minify/v2 => ../../../minify
+replace github.com/dtrenin7/minify/v2 => ../../../minify
 
 require (
 	github.com/dvyukov/go-fuzz v0.0.0-20191022152526-8cb203812681 // indirect
-	github.com/tdewolff/minify/v2 v2.5.2
+	github.com/dtrenin7/minify/v2 v2.5.2
 )

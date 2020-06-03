@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/dtrenin7/test"
 )
 
 func TestMediatype(t *testing.T) {

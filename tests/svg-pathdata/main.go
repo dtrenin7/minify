@@ -2,8 +2,8 @@
 package fuzz
 
 import (
-	"github.com/tdewolff/minify/v2/svg"
-	"github.com/tdewolff/parse"
+	"github.com/dtrenin7/minify/v2/svg"
+	"github.com/dtrenin7/parse"
 )
 
 func Fuzz(data []byte) int {

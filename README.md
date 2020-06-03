@@ -1,10 +1,10 @@
-# Minify <a name="minify"></a> [![Build Status](https://travis-ci.org/tdewolff/minify.svg?branch=master)](https://travis-ci.org/tdewolff/minify) [![API reference](https://img.shields.io/badge/godoc-reference-5272B4)](https://pkg.go.dev/github.com/tdewolff/minify/v2?tab=doc) [![Coverage Status](https://coveralls.io/repos/github/tdewolff/minify/badge.svg?branch=master)](https://coveralls.io/github/tdewolff/minify?branch=master)
+# Minify <a name="minify"></a> [![Build Status](https://travis-ci.org/dtrenin7/minify.svg?branch=master)](https://travis-ci.org/dtrenin7/minify) [![API reference](https://img.shields.io/badge/godoc-reference-5272B4)](https://pkg.go.dev/github.com/dtrenin7/minify/v2?tab=doc) [![Coverage Status](https://coveralls.io/repos/github/dtrenin7/minify/badge.svg?branch=master)](https://coveralls.io/github/dtrenin7/minify?branch=master)
 
 **[Online demo](https://go.tacodewolff.nl/minify) if you need to minify files *now*.**
 
-**[Command line tool](https://github.com/tdewolff/minify/tree/master/cmd/minify) that minifies concurrently and supports watching file changes.**
+**[Command line tool](https://github.com/dtrenin7/minify/tree/master/cmd/minify) that minifies concurrently and supports watching file changes.**
 
-**[Releases](https://github.com/tdewolff/minify/releases) of CLI for various platforms.** See [CLI](https://github.com/tdewolff/minify/tree/master/cmd/minify) for more installation instructions.
+**[Releases](https://github.com/dtrenin7/minify/releases) of CLI for various platforms.** See [CLI](https://github.com/dtrenin7/minify/tree/master/cmd/minify) for more installation instructions.
 
 ---
 
@@ -77,23 +77,23 @@ This minifier proves to be that fast and extensive minifier that can handle HTML
 With modules enabled (`GO111MODULES=auto` or `GO111MODULES=on`), add the following imports and run the project with `go get`
 ``` go
 import (
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/minify/v2/css"
-	"github.com/tdewolff/minify/v2/html"
-	"github.com/tdewolff/minify/v2/js"
-	"github.com/tdewolff/minify/v2/json"
-	"github.com/tdewolff/minify/v2/svg"
-	"github.com/tdewolff/minify/v2/xml"
+	"github.com/dtrenin7/minify/v2"
+	"github.com/dtrenin7/minify/v2/css"
+	"github.com/dtrenin7/minify/v2/html"
+	"github.com/dtrenin7/minify/v2/js"
+	"github.com/dtrenin7/minify/v2/json"
+	"github.com/dtrenin7/minify/v2/svg"
+	"github.com/dtrenin7/minify/v2/xml"
 )
 ```
 
-See [CLI tool](https://github.com/tdewolff/minify/tree/master/cmd/minify) for installation instructions of the binary.
+See [CLI tool](https://github.com/dtrenin7/minify/tree/master/cmd/minify) for installation instructions of the binary.
 
 ## API stability
 There is no guarantee for absolute stability, but I take issues and bugs seriously and don't take API changes lightly. The library will be maintained in a compatible way unless vital bugs prevent me from doing so. There has been one API change after v1 which added options support and I took the opportunity to push through some more API clean up as well. There are no plans whatsoever for future API changes.
 
 ## Testing
-For all subpackages and the imported `parse` package, test coverage of 100% is pursued. Besides full coverage, the minifiers are [fuzz tested](https://github.com/tdewolff/fuzz) using [github.com/dvyukov/go-fuzz](http://www.github.com/dvyukov/go-fuzz), see [the wiki](https://github.com/tdewolff/minify/wiki) for the most important bugs found by fuzz testing. These tests ensure that everything works as intended and that the code does not crash (whatever the input). If you still encounter a bug, please file a [bug report](https://github.com/tdewolff/minify/issues)!
+For all subpackages and the imported `parse` package, test coverage of 100% is pursued. Besides full coverage, the minifiers are [fuzz tested](https://github.com/dtrenin7/fuzz) using [github.com/dvyukov/go-fuzz](http://www.github.com/dvyukov/go-fuzz), see [the wiki](https://github.com/dtrenin7/minify/wiki) for the most important bugs found by fuzz testing. These tests ensure that everything works as intended and that the code does not crash (whatever the input). If you still encounter a bug, please file a [bug report](https://github.com/dtrenin7/minify/issues)!
 
 ## Performance
 The benchmarks directory contains a number of standardized samples used to compare performance between changes. To give an indication of the speed of this library, I've ran the tests on my Thinkpad T460 (i5-6300U quad-core 2.4GHz running Arch Linux) using Go 1.9.2.
@@ -410,13 +410,13 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/minify/v2/css"
-	"github.com/tdewolff/minify/v2/html"
-	"github.com/tdewolff/minify/v2/js"
-	"github.com/tdewolff/minify/v2/json"
-	"github.com/tdewolff/minify/v2/svg"
-	"github.com/tdewolff/minify/v2/xml"
+	"github.com/dtrenin7/minify/v2"
+	"github.com/dtrenin7/minify/v2/css"
+	"github.com/dtrenin7/minify/v2/html"
+	"github.com/dtrenin7/minify/v2/js"
+	"github.com/dtrenin7/minify/v2/json"
+	"github.com/dtrenin7/minify/v2/svg"
+	"github.com/dtrenin7/minify/v2/xml"
 )
 
 func main() {
@@ -473,7 +473,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/tdewolff/minify/v2"
+	"github.com/dtrenin7/minify/v2"
 )
 
 func main() {

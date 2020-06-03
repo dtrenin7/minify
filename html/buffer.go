@@ -1,8 +1,8 @@
 package html
 
 import (
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/parse/v2/html"
+	"github.com/dtrenin7/parse/v2"
+	"github.com/dtrenin7/parse/v2/html"
 )
 
 // Token is a single token unit with an attribute value (if given) and hash of the data.

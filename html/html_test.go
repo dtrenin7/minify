@@ -10,13 +10,13 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/minify/v2/css"
-	"github.com/tdewolff/minify/v2/js"
-	"github.com/tdewolff/minify/v2/json"
-	"github.com/tdewolff/minify/v2/svg"
-	"github.com/tdewolff/minify/v2/xml"
-	"github.com/tdewolff/test"
+	"github.com/dtrenin7/minify/v2"
+	"github.com/dtrenin7/minify/v2/css"
+	"github.com/dtrenin7/minify/v2/js"
+	"github.com/dtrenin7/minify/v2/json"
+	"github.com/dtrenin7/minify/v2/svg"
+	"github.com/dtrenin7/minify/v2/xml"
+	"github.com/dtrenin7/test"
 )
 
 func TestHTML(t *testing.T) {

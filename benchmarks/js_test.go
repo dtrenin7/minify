@@ -3,7 +3,7 @@ package benchmarks
 import (
 	"testing"
 
-	"github.com/tdewolff/minify/v2/js"
+	"github.com/dtrenin7/minify/v2/js"
 )
 
 var jsSamples = []string{

@@ -4,9 +4,9 @@ import (
 	"math"
 	strconvStdlib "strconv"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/parse/v2/strconv"
+	"github.com/dtrenin7/minify/v2"
+	"github.com/dtrenin7/parse/v2"
+	"github.com/dtrenin7/parse/v2/strconv"
 )
 
 type PathData struct {

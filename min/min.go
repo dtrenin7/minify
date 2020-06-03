@@ -3,13 +3,13 @@ package min
 import (
 	"regexp"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/minify/v2/css"
-	"github.com/tdewolff/minify/v2/html"
-	"github.com/tdewolff/minify/v2/js"
-	"github.com/tdewolff/minify/v2/json"
-	"github.com/tdewolff/minify/v2/svg"
-	"github.com/tdewolff/minify/v2/xml"
+	"github.com/dtrenin7/minify/v2"
+	"github.com/dtrenin7/minify/v2/css"
+	"github.com/dtrenin7/minify/v2/html"
+	"github.com/dtrenin7/minify/v2/js"
+	"github.com/dtrenin7/minify/v2/json"
+	"github.com/dtrenin7/minify/v2/svg"
+	"github.com/dtrenin7/minify/v2/xml"
 )
 
 // Default minifiers for CSS, HTML, XML, JS, JSON, and XML

@@ -1,6 +1,6 @@
 package svg
 
-// uses github.com/tdewolff/hasher
+// uses github.com/dtrenin7/hasher
 //go:generate hasher -type=Hash -file=hash.go
 
 // Hash defines perfect hashes for a predefined list of strings

@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/tdewolff/parse/v2/xml"
-	"github.com/tdewolff/test"
+	"github.com/dtrenin7/parse/v2/xml"
+	"github.com/dtrenin7/test"
 )
 
 func TestBuffer(t *testing.T) {
